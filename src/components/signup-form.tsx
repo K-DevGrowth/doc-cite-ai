@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
 import Link from "next/link";
-import { signInWithGoogle } from "@/lib/auth-client";
+import { signInWithGoogle } from "@/lib/auth/auth-client";
 
 export function SignupForm({
   className,
